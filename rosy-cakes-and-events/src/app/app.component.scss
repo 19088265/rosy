@@ -1,0 +1,2296 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@1&display=swap');
+
+.navbar-nav {
+  margin-left: auto;
+  display: flex;
+  justify-content: right;
+}
+
+.navbar-li {
+  background-color: wheat;
+  opacity: 0.8;
+}
+
+.nav-item {
+  margin-left: 10px;
+  margin-right: 30px;
+  font-family: "Cinzel Decorative", serif;
+  font-size: 2.6dvh;
+}
+
+.nav-item > .nav-link {
+  color: black;
+}
+
+/* home section */
+
+#homeSec, #introSec, #productSec, #productSec2,#deliverySec, #lessonSec, #decorSec, #contactSec {
+  width: auto;
+  height: 100dvh;
+}
+
+.containerHome {
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-content: space-evenly;
+  border: 2px solid bisque;
+  padding: 60px;
+  border-radius: 0% 5% 0% 5%;
+}
+
+#welcome {
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5dvw;
+  grid-area: 1 / 1;
+  text-align: center;
+  margin-top: 3dvh;
+  color: white;
+ }
+
+ #title {
+  grid-area: 2 / 1;
+  text-align: center;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: lemonchiffon;
+ }
+
+ @media (max-width: 767.98px) {
+  #homeSec {
+    background-image: url(/assets/images/homeBack11P.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #homeSec, #introSec, #productSec, #productSec2,#deliverySec, #lessonSec, #decorSec, #contactSec {
+    width: 100dvw;
+    height: 100dvh;
+  }
+
+  .containerHome {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-content: space-evenly;
+    border: 2px solid bisque;
+    padding: 60px;
+    border-radius: 0% 5% 0% 5%;
+  }
+
+  #welcome {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.8dvw;
+    grid-area: 1 / 1;
+    text-align: center;
+    margin-top: 3dvh;
+    color: white;
+   }
+
+   #title {
+    grid-area: 2 / 1;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: lemonchiffon;
+   }
+
+}
+
+@media (min-width: 768px) {
+  #homeSec {
+    background-image: url(/assets/images/homeBack11.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 399.98px) and (max-height: 700px) {
+
+  #welcome {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5dvw;
+    grid-area: 1 / 1;
+    text-align: center;
+    margin-top: 3dvh;
+    color: white;
+   }
+
+   #title {
+    grid-area: 2 / 1;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: lemonchiffon;
+   }
+}
+
+/* Intro */
+.containerIntro {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto;
+  align-content: space-around;
+}
+
+#photo {
+  grid-area: 1 / 1;
+  text-align: left;
+}
+
+#photoImg {
+  height: 80dvh;
+  margin-left: 10%;
+  margin-top: 8%;
+  border-radius: 1%;
+}
+
+#bio {
+  grid-area: 1 / 2;
+  text-align: left;
+}
+
+#bioHead {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4dvw;
+  margin-top: 8.5%;
+  text-align: center;
+  margin-left: 0%;
+  color: white;
+}
+
+#bioDes {
+  text-align: right;
+  width: 40dvw;
+  margin-left: 5%;
+  font-family: "Arapey", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.4dvw;
+}
+
+#bioBtn {
+  width: 15dvw;
+  margin-left: 30%;
+  margin-top: -2%;
+}
+
+@media (max-width: 767.98px) {
+  #introSec {
+    background-color: wheat;
+  }
+
+  .containerIntro {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    align-content: center;
+  }
+
+  #photo {
+    grid-area: 1 / 1;
+    text-align: center;
+  }
+
+  #photoImg {
+    height: 30dvh;
+    margin-left: 0%;
+    margin-top: 8%;
+    border-radius: 1%;
+  }
+
+  #bio {
+    grid-area: 2 / 1;
+    text-align: left;
+  }
+
+  #bioHead {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7.5dvw;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 0%;
+    color: white;
+  }
+
+  #bioDes {
+    text-align: center;
+    width: 80dvw;
+    margin-left: 10%;
+    margin-top: -7%;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4dvw;
+  }
+
+  #bioBtn {
+    width: 15dvw;
+    margin-left: 30%;
+    margin-top: -2%;
+  }
+
+}
+
+@media (max-width: 399.98px) and (max-height: 700px) {
+
+  #bio {
+    grid-area: 2 / 1;
+    text-align: left;
+  }
+
+  #bioHead {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7.5dvw;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 0%;
+    color: white;
+  }
+
+  #bioDes {
+    text-align: center;
+    width: 80dvw;
+    margin-left: 10%;
+    margin-top: -7%;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3.5dvw;
+  }
+
+  #bioBtn {
+    width: 15dvw;
+    margin-left: 30%;
+    margin-top: -2%;
+  }
+
+
+  }
+
+@media (min-width: 768px) {
+  #introSec {
+    background-color: wheat;
+  }
+}
+
+/* Products */
+
+
+
+@media (min-width: 768px) {
+  #productSec {
+    background-color: grey;
+  }
+
+  .containerProduct {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    align-content: space-around;
+    text-align: center;
+  }
+
+  #productTitle {
+    grid-area: 1 / span 2;
+  }
+
+  #productTitle > h2 {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    font-size: 6dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    color: wheat;
+  }
+
+  hr.new1 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 1;
+    margin-bottom: 5%;
+  }
+
+  hr.new2 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 2;
+  }
+
+  hr.new3 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 3;
+  }
+
+  hr.new4 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 4;
+  }
+
+  #cake1Img, #cake2Img, #cake3Img, #cake4Img {
+    height: 60dvh;
+    border-radius: 3%;
+  }
+
+  #cake1 {
+    grid-area: 3 / 1;
+  }
+
+  #cake2 {
+    grid-area: 3 / 2;
+  }
+
+  #cake3 {
+    grid-area: 3 / 3;
+  }
+
+  #cake4 {
+    grid-area: 3 / 4;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 2px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-size: 1.5dvw;
+  }
+
+  .btn-outline {
+    color: black; /* Button text color */
+    border-color: lemonchiffon; /* Border color */
+    background-color: transparent; /* Transparent background */
+  }
+
+  .btn:hover {
+    background-color: black; /* Background color on hover */
+    color: bisque;
+  }
+
+
+  #moreCakes {
+    grid-area: 4 / span 4;
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 35%;
+  }
+
+  #moreCakes {
+    color: wheat; /* Button text color */
+    border-color: wheat; /* Border color */
+    background-color: transparent; /* Transparent background */
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-size: 1.5dvw;
+  }
+}
+
+
+@media (max-width: 767.98px) {
+  #productSec {
+    background-color: grey;
+  }
+
+  .containerProduct {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+    align-content: space-around;
+    text-align: center;
+  }
+
+  #productTitle {
+    grid-area: 1 / span 2;
+  }
+
+  #productTitle > h2 {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    font-size: 5.5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    color: wheat;
+  }
+
+  hr.new1 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 1;
+    margin-bottom: 5%;
+    visibility: hidden;
+  }
+
+  hr.new2 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 2;
+    visibility: hidden;
+  }
+
+  hr.new3 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 3;
+    visibility: hidden;
+  }
+
+  hr.new4 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 4;
+    visibility: hidden;
+  }
+
+  #cake1Img, #cake4Img {
+    margin-top: 15%;
+    height: 26dvh;
+    border-radius: 3%;
+  }
+
+  #cake3Img, #cake2Img {
+    height: 30dvh;
+    border-radius: 3%;
+    margin-top: 8%;
+  }
+
+  #cake1 {
+    grid-area: 2 / 1;
+  }
+
+  #cake2 {
+    grid-area: 3 / 2;
+  }
+
+  #cake3 {
+    grid-area: 3 / 1;
+  }
+
+  #cake4 {
+    grid-area: 2 / 2;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 2px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-size: 1.5dvw;
+  }
+
+  .btn-outline {
+    color: black; /* Button text color */
+    border-color: lemonchiffon; /* Border color */
+    background-color: transparent; /* Transparent background */
+  }
+
+  .btn:hover {
+    background-color: black; /* Background color on hover */
+    color: bisque;
+  }
+
+
+  #moreCakes {
+    grid-area: 4 / span 2;
+    margin-top: 10%;
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  #moreCakes {
+    color: wheat; /* Button text color */
+    border-color: wheat; /* Border color */
+    background-color: transparent; /* Transparent background */
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-size: 4.5dvw;
+  }
+
+}
+
+@media (max-width: 399.98px) and (max-height: 700px) {
+
+
+  #productSec {
+    background-color: grey;
+  }
+
+  .containerProduct {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+    align-content: space-around;
+    text-align: center;
+  }
+
+  #productTitle {
+    grid-area: 1 / span 2;
+  }
+
+  #productTitle > h2 {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    font-size: 5.5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    color: wheat;
+  }
+
+  hr.new1 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 1;
+    margin-bottom: 5%;
+    visibility: hidden;
+  }
+
+  hr.new2 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 2;
+    visibility: hidden;
+  }
+
+  hr.new3 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 3;
+    visibility: hidden;
+  }
+
+  hr.new4 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 4;
+    visibility: hidden;
+  }
+
+  #cake1Img, #cake4Img {
+    margin-top: 15%;
+    margin-left: 10%;
+    height: 30dvh;
+    border-radius: 3%;
+  }
+
+  #cake3Img, #cake2Img {
+    height: 33dvh;
+    border-radius: 3%;
+    margin-top: 8%;
+    margin-left: 10%;
+  }
+
+  #cake1 {
+    grid-area: 2 / 1;
+  }
+
+  #cake2 {
+    grid-area: 3 / 2;
+  }
+
+  #cake3 {
+    grid-area: 3 / 1;
+  }
+
+  #cake4 {
+    grid-area: 2 / 2;
+  }
+
+  #moreCakes {
+    grid-area: 4 / span 2;
+    margin-top: 10%;
+    width: 70%;
+    margin-left: 20%;
+  }
+
+  }
+
+
+/* Products2 */
+
+@media (min-width: 768px) {
+  #productSec2 {
+    background-color: wheat;
+  }
+
+  .containerProduct2 {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    align-content: space-around;
+    text-align: center;
+  }
+
+  #productTitle2 {
+    grid-area: 1 / span 2;
+  }
+
+  #productTitle2 > h2 {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: -20%;
+    font-size: 6dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+  }
+
+  hr.new5 {
+    border-top: 2px solid black;
+    grid-area: 2 / 1;
+    margin-bottom: 5%;
+  }
+
+  hr.new6 {
+    border-top: 2px solid black;
+    grid-area: 2 / 2;
+  }
+
+  hr.new7 {
+    border-top: 2px solid black;
+    grid-area: 2 / 3;
+  }
+
+  hr.new8 {
+    border-top: 2px solid black;
+    grid-area: 2 / 4;
+  }
+
+
+  #cake5Img, #cake6Img, #cake7Img, #cake8Img {
+    height: 55dvh;
+    border-radius: 3%;
+  }
+
+  #cake5 {
+    grid-area: 3 / 1;
+  }
+
+  #cake6 {
+    grid-area: 3 / 2;
+  }
+
+  #cake7 {
+    grid-area: 3 / 3;
+  }
+
+  #cake8 {
+    grid-area: 3 / 4;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 2px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+
+  #moreCakes:hover {
+    background-color: wheat; /* Background color on hover */
+    color: black;
+  }
+
+  #orderNow {
+    grid-area: 4 / span 4;
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 35%;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  #productSec2 {
+    background-color: wheat;
+  }
+
+  .containerProduct2 {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+    align-content: space-around;
+    text-align: center;
+  }
+
+  #productTitle2 {
+    grid-area: 1 / span 2;
+  }
+
+  #productTitle2 > h2 {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    font-size: 5.5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    color: white;
+  }
+
+  hr.new5 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 1;
+    margin-bottom: 5%;
+    visibility: hidden;
+  }
+
+  hr.new6 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 2;
+    visibility: hidden;
+  }
+
+  hr.new7 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 3;
+    visibility: hidden;
+  }
+
+  hr.new8 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 4;
+    visibility: hidden;
+  }
+
+  #cake5Img, #cake8Img {
+    margin-top: 15%;
+    height: 24dvh;
+    border-radius: 3%;
+  }
+
+
+  #cake7Img, #cake6Img {
+    height: 26dvh;
+    border-radius: 3%;
+    margin-top: 8%;
+  }
+
+  #cake5Img {
+    height: 25dvh;
+    margin-left: 5%;
+    margin-top: 8%;
+  }
+
+  #cake7Img {
+    height: 30dvh;
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 42dvw;
+  }
+
+  #cake6Img {
+    height: 30dvh;
+    margin-left: 5%;
+  }
+
+  #cake8Img {
+    height: 30dvh;
+    margin-left: -1%;
+    margin-top: 8%;
+  }
+
+  #cake6Img {
+    height: 25dvh;
+  }
+
+  #cake5 {
+    grid-area: 2 / 1;
+  }
+
+  #cake6 {
+    grid-area: 2 / 2;
+  }
+
+  #cake7 {
+    grid-area: 3 / 1;
+  }
+
+  #cake8 {
+    grid-area: 3 / 2;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 2px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-size: 1.5dvw;
+  }
+
+  .btn-outline {
+    color: black; /* Button text color */
+    border-color: lemonchiffon; /* Border color */
+    background-color: transparent; /* Transparent background */
+  }
+
+  .btn:hover {
+    background-color: black; /* Background color on hover */
+    color: bisque;
+  }
+
+
+  #orderNow {
+    grid-area: 4 / span 2;
+    margin-top: 10%;
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  #orderNow {
+    color: black; /* Button text color */
+    border-color: black; /* Border color */
+    background-color: transparent; /* Transparent background */
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-size: 4.5dvw;
+  }
+
+}
+
+@media (max-width: 399.98px) and (max-height: 700px) {
+
+
+  #productSec2 {
+    background-color: wheat;
+  }
+
+  .containerProduct2 {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+    align-content: space-around;
+    text-align: center;
+  }
+
+  #productTitle2 {
+    grid-area: 1 / span 2;
+  }
+
+  #productTitle2 > h2 {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    font-size: 5.5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    color: white;
+  }
+
+  hr.new5 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 1;
+    margin-bottom: 5%;
+    visibility: hidden;
+  }
+
+  hr.new6 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 2;
+    visibility: hidden;
+  }
+
+  hr.new7 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 3;
+    visibility: hidden;
+  }
+
+  hr.new8 {
+    border-top: 3px solid wheat;
+    grid-area: 2 / 4;
+    visibility: hidden;
+  }
+
+  #cake5Img, #cake8Img {
+    margin-top: 15%;
+    height: 25dvh;
+    border-radius: 3%;
+  }
+
+  #cake7Img, #cake6Img {
+    height: 32dvh;
+    border-radius: 3%;
+    margin-top: 8%;
+  }
+
+  #cake5Img {
+    height: 30dvh;
+    margin-left: -2%;
+    margin-top: 8%;
+  }
+
+  #cake7Img {
+    height: 32dvh;
+    margin-left: -2%;
+    margin-top: 8%;
+    width: 42dvw;
+  }
+
+  #cake6Img {
+    height: 30dvh;
+    margin-left: -20%;
+  }
+
+  #cake8Img {
+    height: 32dvh;
+    margin-left: -20%;
+    margin-top: 8%;
+  }
+
+  #cake5 {
+    grid-area: 2 / 1;
+  }
+
+  #cake6 {
+    grid-area: 2 / 2;
+  }
+
+  #cake7 {
+    grid-area: 3 / 1;
+  }
+
+  #cake8 {
+    grid-area: 3 / 2;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 2px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-size: 1.5dvw;
+  }
+
+  .btn-outline {
+    color: black; /* Button text color */
+    border-color: lemonchiffon; /* Border color */
+    background-color: transparent; /* Transparent background */
+  }
+
+  .btn:hover {
+    background-color: black; /* Background color on hover */
+    color: bisque;
+  }
+
+
+  #orderNow {
+    grid-area: 4 / span 2;
+    margin-top: 0%;
+    width: 70%;
+    margin-left: 13%;
+    margin-top: 6%;
+  }
+
+  #orderNow {
+    color: black; /* Button text color */
+    border-color: black; /* Border color */
+    background-color: transparent; /* Transparent background */
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-size: 4.5dvw;
+  }
+
+  }
+
+/* Delivery */
+
+@media (min-width: 768px) {
+  #deliverySec {
+    background-color: blanchedalmond;
+  }
+
+  .containerDelivery {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    align-content: space-evenly;
+    grid-column-gap: 2% ;
+  }
+
+  #orderTitle {
+    grid-area: 1 / span 3;
+    text-align: left;
+  }
+
+  #orderTitle > h2 {
+    margin-top: 12%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    font-size: 6dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+  }
+
+  #one, #two, #three {
+    height: 10dvh;
+  }
+
+  #step1Icon {
+    grid-area: 2 / 1;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  #step1 {
+    grid-area: 3 / 1;
+  }
+
+  #step1 > p {
+    text-align: center;
+    justify-content: center;
+    margin-top: -33%;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.8dvw;
+    color: black;
+  }
+
+  .vl {
+    border-left: 6px solid wheat;
+    height: 45dvh;
+    grid-area: 2 / 2;
+  }
+
+  #step2Icon {
+    grid-area: 2 / 3;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  #step2 {
+    grid-area: 3 / 3;
+  }
+
+  #step2 > p {
+    text-align: center;
+    justify-content: center;
+    margin-top: -30%;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.8dvw;
+    color: black;
+  }
+
+  .vl2 {
+    border-left: 6px solid wheat;
+    height: 45dvh;
+    grid-area: 2 / 4;
+  }
+
+  #step3Icon {
+    grid-area: 2 / 5;
+    text-align: center;
+    margin-top: 15%;
+  }
+
+  #step3 {
+    grid-area: 3 / 5;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #step3 > p {
+    text-align: center;
+    justify-content: center;
+    margin-top: -31%;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.8dvw;
+    color: black;
+  }
+
+  #truckIcon {
+    grid-area: 4 / span 3;
+    margin-left: 40%;
+    margin-top: 5%;
+  }
+
+  #truck {
+    height: 15dvh;
+  }
+
+  #deliveryDes {
+    grid-area: 4 / span 2;
+    margin-left: -95%;
+    margin-top: 14%;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: grey;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #deliverySec {
+    background-color: blanchedalmond;
+  }
+
+  .containerDelivery {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto;
+  }
+
+  #orderTitle {
+    grid-area: 1 / span 5;
+    text-align: left;
+  }
+
+  #orderTitle > h2 {
+    margin-top: 20%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+  }
+
+  #one, #two, #three {
+    height: 4dvh;
+  }
+
+  #step1Icon {
+    grid-area: 2 / 2;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: -30dvw;
+  }
+
+  #step1 {
+    grid-area: 3 / span 3;
+  }
+
+  #step1 > p {
+    text-align: center;
+    justify-content: center;
+    margin-top: -37dvh;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4.5dvw;
+    color: black;
+    margin-left: 35%;
+    width: 50dvw;
+  }
+
+  .vl {
+    border-left: 6px solid wheat;
+    height: 45dvh;
+    grid-area: 2 / 2;
+    visibility: hidden;
+  }
+
+  #step2Icon {
+    grid-area: 4 / 2;
+    text-align: center;
+    margin-top: -25dvh;
+    margin-left: -30dvw;
+  }
+
+  #step2 {
+    grid-area: 5 / 1;
+  }
+
+  #step2 > p {
+    text-align: center;
+    justify-content: center;
+    margin-top: -17dvh;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4.5dvw;
+    color: black;
+    margin-left: 35%;
+    width: 55dvw;
+  }
+
+  .vl2 {
+    border-left: 6px solid wheat;
+    height: 45dvh;
+    grid-area: 2 / 4;
+    visibility: hidden;
+  }
+
+  #step3Icon {
+    grid-area: 6 / 2;
+    text-align: center;
+    margin-top: -5dvh;
+    margin-left: -30dvw;
+  }
+
+  #step3 {
+    grid-area: 7 / 1;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #step3 > p {
+    text-align: center;
+    justify-content: center;
+    margin-top: 2dvh;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4.5dvw;
+    color: black;
+    margin-left: 35%;
+    width: 55dvw;
+  }
+
+  #truckIcon {
+    grid-area: 8 / 1;
+    margin-left: 70%;
+    margin-top: 0%;
+  }
+
+  #truck {
+    height: 6dvh;
+  }
+
+  #deliveryDes {
+    grid-area: 9 / 1;
+    margin-left: 30%;
+    margin-top: 0%;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: grey;
+    width: 60dvw;
+  }
+
+}
+
+@media (max-width: 399.98px) and (max-height: 700px) {
+
+  #deliverySec {
+    background-color: blanchedalmond;
+  }
+
+  .containerDelivery {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-columns: auto;
+  }
+
+  #orderTitle {
+    grid-area: 1 / span 5;
+    text-align: left;
+  }
+
+  #orderTitle > h2 {
+    margin-top: 20%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+  }
+
+  #one, #two, #three {
+    height: 4dvh;
+  }
+
+  #step1Icon {
+    grid-area: 2 / 2;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: -40dvw;
+  }
+
+  #step1 {
+    grid-area: 3 / span 3;
+  }
+
+  #step1 > p {
+    text-align: center;
+    justify-content: center;
+    margin-top: -38dvh;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4.5dvw;
+    color: black;
+    margin-left: 30%;
+    width: 50dvw;
+  }
+
+  .vl {
+    border-left: 6px solid wheat;
+    height: 45dvh;
+    grid-area: 2 / 2;
+    visibility: hidden;
+  }
+
+  #step2Icon {
+    grid-area: 4 / 2;
+    text-align: center;
+    margin-top: -25dvh;
+    margin-left: -40dvw;
+  }
+
+  #step2 {
+    grid-area: 5 / 1;
+  }
+
+  #step2 > p {
+    text-align: center;
+    justify-content: center;
+    margin-top: -18dvh;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4.5dvw;
+    color: black;
+    margin-left: 30%;
+    width: 60dvw;
+  }
+
+  .vl2 {
+    border-left: 6px solid wheat;
+    height: 45dvh;
+    grid-area: 2 / 4;
+    visibility: hidden;
+  }
+
+  #step3Icon {
+    grid-area: 6 / 2;
+    text-align: center;
+    margin-top: -5dvh;
+    margin-left: -40dvw;
+  }
+
+  #step3 {
+    grid-area: 7 / 1;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #step3 > p {
+    text-align: center;
+    justify-content: center;
+    margin-top: 2dvh;
+    font-family: "Arapey", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 4.5dvw;
+    color: black;
+    margin-left: 35%;
+    width: 55dvw;
+  }
+
+  #truckIcon {
+    grid-area: 8 / 1;
+    margin-left: 70%;
+    margin-top: 0%;
+  }
+
+  #truck {
+    height: 6dvh;
+  }
+
+  #deliveryDes {
+    grid-area: 9 / 1;
+    margin-left: 50%;
+    margin-top: 0%;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: grey;
+    width: 40dvw;
+  }
+
+  #deliveryDes > h2 {
+    font-size: 4dvw;
+  }
+
+}
+
+/* Lessons */
+
+@media (min-width: 768px) {
+  #lessonSec {
+    background-color: wheat;
+  }
+
+  .containerLesson {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+  }
+
+  #lessonTitle {
+    grid-area: 1 / span 3;
+    text-align: left;
+  }
+
+  #lessonTitle > h2 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    font-size: 10dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:white;
+  }
+
+  #lessonSubtitle {
+    grid-area: 2 / 1;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: -2%;
+  }
+
+  #lessonSubtitle > h4 {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5dvw;
+  }
+
+  #list {
+    grid-area: 3 / 1;
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  #item {
+    font-size: 3.2dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+
+  }
+
+  #lessonBanner {
+    grid-area: 4 / 1;
+    text-align: left;
+  }
+
+  #lessonBanner > h3 {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2dvw;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+
+  #disclaimer {
+    grid-area: 5 / span 3;
+    text-align: left;
+  }
+
+  #disclaimer > h4 {
+    font-size: 4dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    margin-left: 8%;
+  }
+
+  #decorBtn {
+    grid-area: 7 / span 3;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 3%;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+  #lessonSec {
+    background-color: wheat;
+  }
+
+  .containerLesson {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+  }
+
+  #lessonTitle {
+    grid-area: 1 / span 3;
+    text-align: left;
+  }
+
+  #lessonTitle > h2 {
+    margin-top: 15%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    font-size: 3.5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:white;
+  }
+
+  #lessonSubtitle {
+    grid-area: 2 / span 3;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+
+  #lessonSubtitle > h4 {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.5dvw;
+  }
+
+  #list {
+    grid-area: 3 / span 3;
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  #item {
+    font-size: 2.5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+
+  }
+
+  #lessonBanner {
+    grid-area: 4 / span 3;
+    text-align: center;
+  }
+
+  #lessonBanner > h3 {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5dvw;
+    margin-left: 10%;
+    margin-top: 8%;
+    width: 80dvw;
+  }
+
+  #disclaimer {
+    grid-area: 5 / span 3;
+    text-align: center;
+  }
+
+  #disclaimer > h4 {
+    font-size: 2.5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+
+  #decorBtn {
+    grid-area: 7 / span 3;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+    font-size: 4.5dvw;
+  }
+
+}
+
+@media (max-width: 399.98px) and (max-height: 700px) {
+
+  #lessonSec {
+    background-color: wheat;
+  }
+}
+
+
+/* Decor */
+
+@media (min-width: 768px) {
+  #decorSec {
+    background-color: grey;
+  }
+
+  .containerDecor {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+  }
+
+  #decorTitle {
+    grid-area: 1 / span 3;
+    text-align: left;
+  }
+
+  #decorTitle > h2 {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    font-size: 8dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:wheat;
+  }
+
+  #followUs {
+    grid-area: 2 / span 3;
+    text-align: center;
+  }
+
+  #followUs > h4 {
+    margin-top: -1%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    font-size: 5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+  }
+
+  .containerInsta {
+    position: relative;
+    width: 50%;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100dvw;
+    height: 60dvh;
+    margin-left: 30dvw;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30dvh;
+    left: 50dvw;
+    width: 30dvw;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+
+  .containerInsta:hover .image {
+    opacity: 0.3;
+  }
+
+  .containerInsta:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: wheat;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .text:hover {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #decorSec {
+    background-color: grey;
+  }
+
+  .containerDecor {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto;
+  }
+
+  #decorTitle {
+    grid-area: 1 / span 2;
+    text-align: center;
+  }
+
+  #decorTitle > h2 {
+    margin-top: 40dvh;
+    margin-bottom: 2%;
+    margin-left: 0%;
+    font-size: 3.1dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:wheat;
+  }
+
+  #followUs {
+    grid-area: 2 / span 3;
+    text-align: center;
+  }
+
+  #followUs > h4 {
+    margin-top: 20%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    font-size: 5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+  }
+
+  .containerInsta {
+    width: 80%;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 40dvw;
+    height: 35dvh;
+    margin-left: 5dvw;
+    margin-top: 0%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    visibility: hidden;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    top: 10dvh;
+    left: 10dvw;
+    width: 10dvw;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+
+  .containerInsta:hover .image {
+    opacity: 0.3;
+  }
+
+  .containerInsta .middle {
+    opacity: 1;
+  }
+
+  .text {
+    background-color: wheat;
+    color: black;
+    font-size: 25px;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 5px;
+    width: 70dvw;
+    margin-left: 15dvw;
+    margin-top: -30dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .text:hover {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 399.98px) and (max-height: 700px) {
+
+  #decorSec {
+    background-color: grey;
+  }
+}
+
+/* Contact */
+
+@media (min-width: 768px) {
+  #contactSec {
+    background-color: wheat;
+  }
+
+  .containerContact {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: space-evenly;
+  }
+
+  #contactTitle {
+    grid-area: 1 / span 3;
+    text-align: left;
+  }
+
+  #contactTitle > h2 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    font-size: 8dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #map {
+    grid-area: 2 / span 3;
+  }
+
+  iframe {
+    grid-area: 2 / span 3;
+    height: 40dvh;
+    width: 90dvw;
+    margin-left: 0%;
+    margin-top: 1.5%;
+    border-radius: 5px;
+  }
+
+  #contactHead {
+    grid-area: 3 / 1;
+    text-align: left;
+  }
+
+  #contactHead > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 3.5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+  }
+
+  #hoursHead {
+    grid-area: 3 / 2;
+    text-align: center;
+  }
+
+  #hoursHead > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: -50%;
+    font-size: 3.5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+  }
+
+  #adHead {
+    grid-area: 3 / 3;
+    text-align: right;
+  }
+
+  #adHead > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 3.5dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+  }
+
+  #email {
+    grid-area: 4 / 1;
+    text-align: left;
+  }
+
+  #email > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #phone {
+    grid-area: 5 / 1;
+    text-align: left;
+  }
+
+  #phone > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #time1 {
+    grid-area: 4 / 2;
+    text-align: center;
+  }
+
+  #time1 > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: -50%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #time2 {
+    grid-area: 5 / 2;
+    text-align: center;
+  }
+
+  #time2 > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: -50%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #add1 {
+    grid-area: 4 / 3;
+    text-align: right;
+  }
+
+  #add1 > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #add2 {
+    grid-area: 5 / 3;
+    text-align: right;
+  }
+
+  #add2 > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #right {
+    grid-area: 11 / 1;
+    text-align: left;
+  }
+
+  #right > h3 {
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #dev {
+    color: grey;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  #contactSec {
+    background-color: wheat;
+  }
+
+  .containerContact {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: space-evenly;
+  }
+
+  #contactTitle {
+    grid-area: 1 / 1;
+    text-align: left;
+  }
+
+  #contactTitle > h2 {
+    margin-top: 20%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    font-size: 4dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #map {
+    grid-area: 2 / span 2;
+  }
+
+  iframe {
+    grid-area: 2 / span 2;
+    height: 30dvh;
+    width: 90dvw;
+    margin-left: 1%;
+    margin-top: 1.5%;
+    border-radius: 5px;
+  }
+
+  #contactHead {
+    grid-area: 3 / 1;
+    text-align: center;
+  }
+
+  #contactHead > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+  }
+
+  #hoursHead {
+    grid-area: 6 / 1;
+    text-align: center;
+  }
+
+  #hoursHead > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+  }
+
+  #adHead {
+    grid-area: 9 / 1;
+    text-align: center;
+  }
+
+  #adHead > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    font-size: 3dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+  }
+
+  #email {
+    grid-area: 4 / 1;
+    text-align: center;
+  }
+
+  #email > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 15%;
+    font-size: 2.8dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #phone {
+    grid-area: 5 / 1;
+    text-align: center;
+  }
+
+  #phone > h3 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    font-size: 2.8dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #time1 {
+    grid-area: 7 / 1;
+    text-align: center;
+  }
+
+  #time1 > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    font-size: 2.8dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #time2 {
+    grid-area: 8 / 1;
+    text-align: center;
+  }
+
+  #time2 > h3 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    font-size: 2.8dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #add1 {
+    grid-area: 10 / 1;
+    text-align: center;
+  }
+
+  #add1 > h3 {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 15%;
+    font-size: 2.8dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #add2 {
+    grid-area: 11 / 1;
+    text-align: center;
+  }
+
+  #add2 > h3 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    font-size: 2.8dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #right {
+    grid-area: 11 / 1;
+    text-align: center;
+  }
+
+  #right > h3 {
+    margin-top: 15%;
+    margin-bottom: 0%;
+    margin-left: 15%;
+    font-size: 2dvh;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: italic;
+    color:black;
+  }
+
+  #dev {
+    color: grey;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 399.98px) and (max-height: 700px) {
+
+  #contactSec {
+    background-color: wheat;
+  }
+}
+
+#toggle {
+  background-color: black;
+  border-radius: 10%;
+}
+
+#toggl {
+  background-color: wheat;
+  border-radius: 10%;
+}
+
+
