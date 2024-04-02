@@ -1,0 +1,113 @@
+<section id="introSec">
+
+  <div class="containerIntro">
+    <div id="photo">
+      <img src="/assets/images/intro.jpg" id="photoImg" alt="">
+    </div>
+    <div id="bio">
+      <h2 id="bioHead">Meet the creative baker</h2> <br>
+      <p id="bioDes">I am passionate about the art of baking and creating delightful confections that
+        bring joy to people's lives. With over a decade of experience in the culinary world,
+        I have honed my skills to perfection, specializing in crafting artisanal bread, decadent pastries, and exquisite cakes.
+        <br>
+        <br>
+        For me, baking is more than just a profession—it's a labor of love. I believe in using only the finest ingredients, sourced locally whenever possible, to ensure that each creation is not only delicious
+        but also a reflection of my commitment to quality and excellence.
+        <br>
+        <br>
+        I invite you to experience the magic of my bakery firsthand. Stop by and indulge in a freshly baked treat,
+        or reach out to discuss custom orders for your special occasions. Together, let's create moments of sweetness that will be cherished for years to come.
+      </p>
+      <br>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="productSec">
+
+  <div class="containerProduct">
+
+    <div id="productTitle"><h2>Our selection of cakes</h2></div>
+
+    <hr class="new1">
+    <hr class="new2">
+    <hr class="new3">
+    <hr class="new4">
+
+    <div id="cake1"><img src="/assets/images/cake1.jpg" id="cake1Img" alt=""></div>
+    <div id="cake2"><img src="/assets/images/cake2.jpg" id="cake2Img" alt=""></div>
+    <div id="cake3"><img src="/assets/images/cake3.jpg" id="cake3Img" alt=""></div>
+    <div id="cake4"><img src="/assets/images/cake4.jpg" id="cake4Img" alt=""></div>
+
+    <a id="moreCakes" href="#productSec2" class="btn btn-outline">View more cakes</a>
+
+
+  </div>
+
+</section>
+
+<section id="productSec2">
+
+  <div class="containerProduct2">
+    <div id="productTitle2"><h2>More of our delicious cakes...</h2></div>
+
+    <hr class="new5">
+    <hr class="new6">
+    <hr class="new7">
+    <hr class="new8">
+
+    <div id="cake5"><img src="/assets/images/cake5.jpg" id="cake5Img" alt=""></div>
+    <div id="cake6"><img src="/assets/images/cake9.jpg" id="cake6Img" alt=""></div>
+    <div id="cake7"><img src="/assets/images/cake7.jpg" id="cake7Img" alt=""></div>
+    <div id="cake8"><img src="/assets/images/cake8.jpg" id="cake8Img" alt=""></div>
+
+    <a id="orderNow" href="#deliverySec" class="btn btn-outline2">Order now</a>
+
+  </div>
+
+</section>
+
+<section id="deliverySec">
+
+  <div class="containerDelivery">
+
+    <div id="orderTitle"><h2>Order now, in three easy steps:</h2></div>
+
+    <div id="step1Icon"><img src="/assets/images/one.png" id="one" alt=""></div>
+    <div id="step1">
+      <p>Send an image of the cake design you want, and your contact details.</p>
+    </div>
+
+    <div class="vl"></div>
+
+    <div id="step2Icon"><img src="/assets/images/two.png" id="two" alt=""></div>
+    <div id="step2">
+      <p>Proceed to pay an upfront deposit of R500, so that your order can be confirmed.</p>
+    </div>
+
+    <div class="vl2"></div>
+
+    <div id="step3Icon"><img src="/assets/images/three.png" id="three" alt=""></div>
+    <div id="step3">
+      <p>Lastly, sit back and enjoy the rest of your day as we bake your creation.</p>
+    </div>
+
+    <div id="truckIcon"><img src="/assets/images/truck.png" id="truck" alt=""></div>
+    <div id="deliveryDes"><h2>* Delivery available at an additional cost</h2></div>
+
+
+  </div>
+
+</section>
+
+<section id="lessonSec">
+
+</section>
+
+<section id="decorSec">
+
+</section>
+
+<section id="contactSec"></section>
